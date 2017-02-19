@@ -1,0 +1,122 @@
+li {list-style: none;}
+.xn-header {
+    text-align: center;
+    height: 3.4rem;
+    line-height: 3.4rem;
+    padding: 0;
+}
+.xn-header.xn-bar a.xn-menu,.xn-header.xn-bar a.xn-email {
+    display: block;
+    width: 3rem;
+    height: 3.4rem;
+    line-height: 3.4rem;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    color: #333;
+}
+.xn-menu {
+    float: left;
+}
+.xn-search-form {
+    display: inline-block;
+    width: 70%;
+    margin: .7rem 0;
+    background: #fff;
+    border-radius: 15px;
+}
+.xn-search-form:before,.xn-search-form:after,.xn-search-form .xn-input-search:after {content: initial;background:none;}
+.xn-search-form input[type="search"] {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+}
+.xn-search {}
+.xn-search-form .xn-input-search {
+    height: 2rem;
+    line-height: 2rem;
+}
+.xn-email {
+    float: right;
+}
+.xn-nav {
+    overflow: hidden;
+    height: 5rem;
+    line-height: 5rem;
+    background: #fff;
+}
+.xn-nav a {
+    font-size: 14px;
+    color: #333;
+    width: 25%;
+    height: 3rem;
+    margin: 1rem 0;
+    float: left;
+    text-align: center;
+}
+.xn-nav a:before {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 6px;
+}
+.xn-navLinks {}
+.xn-cookboook {
+    width: 100%;
+    height: 13.4rem;
+    text-align: center;
+    background: #fff;
+    margin-top: 1.2rem;
+}
+.xn-cookboook p {
+    font-size: 18px;
+    color: #ad0505;
+    padding-top: 1.2rem;
+    margin: 0;
+}
+.cookbook-author {
+    display: inline-block;
+    padding: .6rem 0 1.2rem 0;
+    font-size: 16px;
+}
+.cook-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.cook-list li {
+    display: inline-block;
+    width: 33.333%;
+    float: left;
+}
+.cook-list li a {}
+.xn-slider-line {
+    bottom: 3px;
+    height: 3px;
+}
+.xn-slider-line .xn-line {
+    width: 33.333%;
+    height: 100%;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+    float: left;
+    background: green;
+}
+.xn-slider-line .xn-line.xn-active {
+    background: orange;
+}
+.xn-active {}
+.xn-img-list {
+    margin: 0;
+    margin-top: 1.2rem;
+}
+.xn-footer {
+    
+}
+.xn-tab-item {}
+
+/*===========Notice Page============*/
+.xn-notice-header {text-align: left;}

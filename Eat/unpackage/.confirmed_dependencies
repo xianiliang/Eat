@@ -1,0 +1,39 @@
+{
+  "index.html": {
+    "resources": [
+      "images/breakfast-01.jpg",
+      "images/breakfast-02.jpg",
+      "images/dinner-01.jpg",
+      "fonts/mui.ttf",
+      "images/dinner-02.jpg",
+      "images/list-01.jpg",
+      "images/breakfast-03.jpg",
+      "images/dinner-03.jpg",
+      "images/slider-02.jpg",
+      "js/mui.min.js",
+      "css/app.css",
+      "images/lunch-02.jpg",
+      "images/slider-03.jpg",
+      "css/mui.min.css",
+      "images/lunch-03.jpg",
+      "images/lunch-01.jpg",
+      "images/slider-01.jpg"
+    ],
+    "refer": []
+  },
+  "main.html": {
+    "resources": [
+      "a.html",
+      "css/app.css",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "a.html",
+      "c.html",
+      "b.html",
+      "d.html"
+    ]
+  }
+}

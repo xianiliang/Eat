@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/app.css"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav xn-header xn-bar">
+		<a href="" class="mui-icon mui-icon-list xn-menu"></a>
+	    <form class="mui-input-group xn-search-form">
+		    <div class="mui-input-row mui-input-search xn-input-search">
+		        <input type="search" class="mui-input-clear xn-search" placeholder="">
+		    </div>
+		</form>
+		<a href="" class="mui-icon mui-icon-email xn-email"></a>
+	</header>
+	<nav class="mui-bar mui-bar-tab xn-footer">
+		<a class="mui-tab-item mui-active xn-tab-item" href="#tabbar">
+			<span class="mui-icon mui-icon-home"></span>
+			<span class="mui-tab-label">首页</span>
+		</a>
+		<a class="mui-tab-item xn-tab-item" href="#tabbar-with-chat">
+			<span class="mui-icon mui-icon-email"><span class="mui-badge">9</span></span>
+			<span class="mui-tab-label">消息</span>
+		</a>
+		<a class="mui-tab-item xn-tab-item" href="#tabbar-with-contact">
+			<span class="mui-icon mui-icon-contact"></span>
+			<span class="mui-tab-label">通讯录</span>
+		</a>
+		<a class="mui-tab-item xn-tab-item" href="#tabbar-with-map">
+			<span class="mui-icon mui-icon-gear"></span>
+			<span class="mui-tab-label">设置</span>
+		</a>
+	</nav>
+	<div class="mui-content">
+	    <div id="slider" class="mui-slider" >
+			<div class="mui-slider-group mui-slider-loop">
+				<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="images/slider-01.jpg">
+					</a>
+				</div>
+				<!-- 第一张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="images/slider-01.jpg">
+					</a>
+				</div>
+				<!-- 第二张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="images/slider-02.jpg">
+					</a>
+				</div>
+				<!-- 第三张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="images/slider-03.jpg">
+					</a>
+				</div>
+				<!-- 第四张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="images/slider-02.jpg">
+					</a>
+				</div>
+				<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="images/slider-01.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="mui-slider-indicator">
+				<div class="mui-indicator mui-active"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+			</div>
+		</div>
+		<div class="xn-nav">
+		    <a class="mui-icon mui-icon-settings xn-navLinks" href="">菜谱分类</a>
+		    <a class="mui-icon mui-icon-person xn-navLinks" href="">省时快手菜</a>
+		    <a class="mui-icon mui-icon-pengyouquan xn-navLinks" href="">精品菜单</a>
+		    <a class="mui-icon mui-icon-personadd xn-navLinks" href="">好友动态</a>
+		</div>
+		<div class="xn-cookboook">
+			<p>今日午餐推荐：下饭菜主打周末午餐</p>
+			<a href="" class="cookbook-author">@凉小夏</a>
+			<div id="xn-slider" class="mui-slider" >
+			<div class="mui-slider-group mui-slider-loop">
+				<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<ul class="cook-list">
+						<li><a href=""><img src="images/breakfast-01.jpg" alt="" /></a></li>
+						<li><a href=""><img src="images/breakfast-02.jpg" alt="" /></a></li>
+						<li><a href=""><img src="images/breakfast-03.jpg" alt="" /></a></li>
+					</ul>
+				</div>
+				<!-- 第一张 -->
+				<div class="mui-slider-item">
+					<ul class="cook-list">
+						<li><a href=""><img src="images/breakfast-01.jpg" alt="" /></a></li>
+						<li><a href=""><img src="images/breakfast-02.jpg" alt="" /></a></li>
+						<li><a href=""><img src="images/breakfast-03.jpg" alt="" /></a></li>
+					</ul>
+				</div>
+				<!-- 第二张 -->
+				<div class="mui-slider-item">
+					<ul class="cook-list">
+						<li><a href=""><img src="images/lunch-01.jpg" alt="" /></a></li>
+						<li><a href=""><img src="images/lunch-02.jpg" alt="" /></a></li>
+						<li><a href=""><img src="images/lunch-03.jpg" alt="" /></a></li>
+					</ul>
+				</div>
+				<!-- 第三张 -->
+				<div class="mui-slider-item">
+					<ul class="cook-list">
+						<li><a href=""><img src="images/dinner-01.jpg" alt="" /></a></li>
+						<li><a href=""><img src="images/dinner-02.jpg" alt="" /></a></li>
+						<li><a href=""><img src="images/dinner-03.jpg" alt="" /></a></li>
+					</ul>
+				</div>
+				<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<ul class="cook-list">
+						<li><a href=""><img src="images/breakfast-01.jpg" alt="" /></a></li>
+						<li><a href=""><img src="images/breakfast-02.jpg" alt="" /></a></li>
+						<li><a href=""><img src="images/breakfast-03.jpg" alt="" /></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="mui-slider-indicator xn-slider-line">
+				<div class="mui-indicator mui-active xn-line xn-active"></div>
+				<div class="mui-indicator xn-line"></div>
+				<div class="mui-indicator xn-line"></div>
+			</div>
+		</div>
+		</div>
+		<div class="mui-card xn-img-list">
+			<div class="mui-card-header mui-card-media" style="height:40vw;background-image:url(images/list-01.jpg)"></div>
+			<div class="mui-card-content">
+				<div class="mui-card-content-inner">
+					<p>Posted on January 18, 2016</p>
+					<p style="color: #333;">这里显示文章摘要，让读者对文章内容有个粗略的概念...</p>
+				</div>
+			</div>
+			<div class="mui-card-footer">
+				<a class="mui-card-link">Like</a>
+				<a class="mui-card-link">Read more</a>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
